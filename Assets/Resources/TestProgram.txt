@@ -1,0 +1,18 @@
+﻿LABEL1:
+    VAR X       ; Test comment
+    VAR Y
+
+	MOV X, 5.0
+    MOV X, 0xA0
+    MOV Y, 10
+    ADD X, Y
+    SUB X, 3
+    
+    JMP LABEL2
+
+    MOV X, "HOLA COMO VA"
+    MOV X, 1.0
+
+LABEL2:
+
+	JMP LABEL1
